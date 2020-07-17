@@ -117,7 +117,7 @@ policy_reload_callback(int seqno)
 static int
 policy_setenforce_callback(int seqno)
 {
-	log_callback(SELINUX_INFO, ("policy setenforce notice received\n");
+	log_callback(SELINUX_INFO, "policy setenforce notice received\n");
 	return 0;
 }
 
